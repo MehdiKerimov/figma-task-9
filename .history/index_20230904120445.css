@@ -10,42 +10,43 @@
   padding: 112px 135px 68px 135px;
   background: #fdf0e9;
 }
-.container .text-box .collaj {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 64px;
+.container .text-box .collaj{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
 }
-.container .text-box .collaj button {
-  width: 170px;
-  height: 48px;
-  border-radius: 6px;
-  background: #fff;
-  box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
-  border: none;
+.container .text-box .collaj button{
+    width: 170px;
+height: 48px;
+    border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+border: none;
+
 }
-.container .text-box .collaj button a {
-  color: #391400;
-  text-align: center;
-  font-family: Epilogue;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
+.container .text-box .collaj button a{
+    color: #391400;
+text-align: center;
+font-family: Epilogue;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
 }
-.container .text-box h1 {
+h1 {
   color: var(--Text_Dark_Accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 32px; 
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.container .text-box h2 {
+h2 {
   width: 318px;
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
@@ -53,22 +54,23 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
-  line-height: 64px;
+  line-height: 64px; 
   letter-spacing: -1px;
 }
 .container ul {
-  display: flex;
-  justify-content: space-between;
-}
-.container ul li {
-  list-style-type: none;
-}
-.container ul li img {
-  width: 370px;
-  height: 224px;
-  margin-bottom: 26px;
-}
-.container ul li h3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container ul li{
+    list-style-type: none;
+/* width: 33.33%; */
+  }
+  .container ul li img {
+    width: 370px;
+height: 224px;
+margin-bottom: 26px;
+  }
+h3 {
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -77,34 +79,35 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container ul li p {
+p {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 338px;
   height: 68px;
+
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* H4 */
   font-family: Epilogue;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 32px; /* 133.333% */
 }
-.container ul li a {
+a {
   text-decoration: none;
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Text */
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 32px; /* 200% */
 }
 
-.container hr {
+hr {
   margin-top: 68px;
-  background: #f3d1bf;
-  height: 1px;
-  width: 100%;
-  border: none;
 }
